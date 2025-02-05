@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="pbody">
+    <header >
+
+        
+        <h1>Spices Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+<div class="box">
+    <div class="slider">
+        <div class="slides">
+          <img src="images/black-pepper.jpg" alt="Image 1">
+          <img src="images/chili.jpg" alt="Image 2">
+          <img src="images/Coriander.jpg" alt="Image 3">
+          <img src="images/Cumin.jpg" alt="Image 4">
+          <img src="images/head.jpg" alt="Image 5">
+          <img src="images/thum.jpg" alt="Image 6">
+        </div>
+    </div>
+</div>   
+        
+            
+
+
+
+
+
+    <div class="tab">
+   
+            <h2 class="htable">Product Prices</h2>
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Chili Powder</td>
+                <td>100g</td>
+                <td>Rs.150</td>
+            </tr>
+            <tr>
+                <td>Turmeric</td>
+                <td>100g</td>
+                <td>Rs.200</td>
+            </tr>
+            <tr>
+                <td>Cumin</td>
+                <td>100g</td>
+                <td>Rs.150</td>
+            </tr>
+            <tr>
+                <td>Coriander</td>
+                <td>100g</td>
+                <td>Rs.180</td>
+            </tr>
+            <tr>
+                <td>Black Pepper</td>
+                <td>100g</td>
+                <td>Rs.230</td>
+            </tr>
+            <tr>
+                <td>Cinnamon</td>
+                <td>100g</td>
+                <td>Rs.300</td>
+            </tr>
+            <tr>
+                <td>Curry Powder</td>
+                <td>100g</td>
+                <td>Rs.200</td>
+            </tr>
+        </table>
+    </div>
+        <br>
+
+       
+        <div class="cal"> <h2>Calculate Your Bill</h2><div class="bill-form">
+              <select id="item-name">
+                <option value="Chili Powder" data-price="150">Chili Powder </option>
+                <option value="Turmeric" data-price="200">Turmeric</option>
+                <option value="Cumin" data-price="150">Cumin</option>
+                <option value="Coriander" data-price="180">Coriander</option>
+                <option value="Black Pepper" data-price="230">Black Pepper</option>
+                <option value="Cinnamon" data-price="300">Cinnamon</option>
+                <option value="Curry Powder" data-price="200">Curry Powder</option>
+              </select>
+              <select id="item-quantity">
+                <option value="50">50g</option>
+                <option value="100">100g</option>
+                <option value="150">150g</option>
+                <option value="200">200g</option>
+                <option value="250">250g</option>
+                <option value="300">300g</option>
+                <option value="350">350g</option>
+                <option value="400">400g</option>
+                <option value="450">450g</option>
+                <option value="500">500g</option>
+                <option value="550">550g</option>
+                <option value="600">600g</option>
+                <option value="650">650g</option>
+                <option value="700">700g</option>
+                <option value="750">750g</option>
+                <option value="800">800g</option>
+                <option value="850">850g</option>
+                <option value="900">900g</option>
+                <option value="950">950g</option>
+                <option value="1000">1000g</option>
+              </select>
+              <button class="buttona" onclick="addItem()">Add Item</button>
+              
+            </div>
+
+            <button class="buttonc" onclick="clearBill()">Clear Bill</button>
+
+            <div class="bill-items">
+              <ul id="items-list"></ul>
+            </div>
+            <h2>Total: Rs.<span id="total-amount">0.00</span></h2>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <p>&copy; 2025 Spices Shop</p>
+</footer>
+
+<script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

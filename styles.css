@@ -1,0 +1,303 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.abody{
+  background-image: url(images/back.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+
+.pbody{
+  background-image: url(images/back.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+.cbody{
+  background-image: url(images/backc.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  text-align: center;
+  
+}
+
+header {
+    background-color: black;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.spcl{
+    text-align: center;
+}
+
+.hiper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+ background-color: #000000;
+ font-weight: bolder;
+ padding: 10px 30px 10px 30px;
+ color: #ffffff;
+ font-size: larger;
+ 
+}
+
+.hiper:hover{
+  color: #999898;
+}
+
+.listed {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    
+}
+
+.our{
+    margin-bottom: 90px;
+    padding: 10px;
+}
+
+.abp{
+    padding: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+
+}
+
+
+.htable{
+    padding-left: 60px;
+}
+
+table {
+    margin-left: 50px;
+    border-collapse: collapse;
+    text-align: left;
+    
+    
+}
+
+th{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+td{
+    width: 20%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.tab {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 30px;
+  
+}
+
+.cal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin-left: 20px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: left;
+    padding-left: 50px;
+  }
+
+
+
+  .bill-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+  }
+  
+  .bill-form select {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .bill-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .bill-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .bill-items ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .bill-items li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .buttonc{
+    padding: 10px;
+    background-color: #a80303;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .buttonc:hover {
+    background-color: #740303;
+  }
+
+
+  
+
+  .slider {
+    
+    width: 300px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    float: right;
+    margin: 50px;
+  }
+  
+  .slides {
+    display: flex;
+    width: 600%;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .slides img {
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+  }
+
+
+
+
+
+
+footer {
+    background-color: hsl(0, 0%, 0%);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4cqh;
+    text-shadow: 2px 2px 4px black;  
+  }
+
+
+.bg1{
+
+    position: relative;
+    text-align: center;
+    
+    
+}
+
+.bgimg{
+    width: 100%;
+    border-radius: 30px;
+}
+
+li{
+ text-align: left;
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh; 
+}
+
+.contact-div {
+  background-color: hwb(0 100% 0% / 0.788);
+  padding: 15px 100px 15px 100px;
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+  text-align: left;
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
